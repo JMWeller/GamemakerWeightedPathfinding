@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="BaitalWeightedPathfinding/BaitalWeightedPathfinding.vcxproj" Id="208b9d6f-5a2e-426f-9010-a18513652aeb" />
+</Solution>

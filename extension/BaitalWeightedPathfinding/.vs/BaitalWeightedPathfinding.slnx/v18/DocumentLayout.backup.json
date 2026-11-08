@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GamemakerWeightedPathfinding\\extension\\BaitalWeightedPathfinding\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{208B9D6F-5A2E-426F-9010-A18513652AEB}|BaitalWeightedPathfinding\\BaitalWeightedPathfinding.vcxproj|C:\\GamemakerWeightedPathfinding\\extension\\BaitalWeightedPathfinding\\BaitalWeightedPathfinding\\Pathfinding.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{208B9D6F-5A2E-426F-9010-A18513652AEB}|BaitalWeightedPathfinding\\BaitalWeightedPathfinding.vcxproj|solutionrelative:BaitalWeightedPathfinding\\Pathfinding.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pathfinding.cpp",
+              "DocumentMoniker": "C:\\GamemakerWeightedPathfinding\\extension\\BaitalWeightedPathfinding\\BaitalWeightedPathfinding\\Pathfinding.cpp",
+              "RelativeDocumentMoniker": "BaitalWeightedPathfinding\\Pathfinding.cpp",
+              "ToolTip": "C:\\GamemakerWeightedPathfinding\\extension\\BaitalWeightedPathfinding\\BaitalWeightedPathfinding\\Pathfinding.cpp",
+              "RelativeToolTip": "BaitalWeightedPathfinding\\Pathfinding.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-11-04T03:30:16.538Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+﻿  Pathfinding.cpp
+C:\GamemakerWeightedPathfinding\extension\BaitalWeightedPathfinding\BaitalWeightedPathfinding\Pathfinding.cpp(5,18): warning C4190: 'TestFunction' has C-linkage specified, but returns 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' which is incompatible with C
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xstring(589,7):
+      see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+     Creating library C:\GamemakerWeightedPathfinding\extension\BaitalWeightedPathfinding\x64\Debug\BaitalWeightedPathfinding.lib and object C:\GamemakerWeightedPathfinding\extension\BaitalWeightedPathfinding\x64\Debug\BaitalWeightedPathfinding.exp
+  BaitalWeightedPathfinding.vcxproj -> C:\GamemakerWeightedPathfinding\extension\BaitalWeightedPathfinding\x64\Debug\BaitalWeightedPathfinding.dll

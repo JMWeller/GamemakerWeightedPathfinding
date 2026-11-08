@@ -1,0 +1,4 @@
+﻿  Pathfinding.cpp
+     Creating library C:\GamemakerWeightedPathfinding\extension\BaitalWeightedPathfinding\x64\Release\BaitalWeightedPathfinding.lib and object C:\GamemakerWeightedPathfinding\extension\BaitalWeightedPathfinding\x64\Release\BaitalWeightedPathfinding.exp
+MSVCRT.lib(exe_main.obj) : error LNK2001: unresolved external symbol main
+C:\GamemakerWeightedPathfinding\extension\BaitalWeightedPathfinding\x64\Release\BaitalWeightedPathfinding.exe : fatal error LNK1120: 1 unresolved externals

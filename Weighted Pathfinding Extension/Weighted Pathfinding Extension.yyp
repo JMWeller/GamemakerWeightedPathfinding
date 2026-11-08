@@ -1,0 +1,50 @@
+{
+  "$GMProject":"v1",
+  "%Name":"Weighted Pathfinding Extension",
+  "AudioGroups":[
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+  "configs":{
+    "children":[],
+    "name":"Default",
+  },
+  "defaultScriptType":1,
+  "Folders":[
+    {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Tilesets","folderPath":"folders/Tilesets.yy","name":"Tilesets","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
+  "ForcedPrefabProjectReferences":[],
+  "IncludedFiles":[],
+  "isEcma":false,
+  "LibraryEmitters":[],
+  "MetaData":{
+    "IDEVersion":"2026.0.0.16",
+  },
+  "name":"Weighted Pathfinding Extension",
+  "resources":[
+    {"id":{"name":"BaitalWeightedPathfinding","path":"extensions/BaitalWeightedPathfinding/BaitalWeightedPathfinding.yy",},},
+    {"id":{"name":"obj_dummy_a","path":"objects/obj_dummy_a/obj_dummy_a.yy",},},
+    {"id":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"globals","path":"scripts/globals/globals.yy",},},
+    {"id":{"name":"mp_weighted_grid_path","path":"scripts/mp_weighted_grid_path/mp_weighted_grid_path.yy",},},
+    {"id":{"name":"spr_dummy_a","path":"sprites/spr_dummy_a/spr_dummy_a.yy",},},
+    {"id":{"name":"spr_dummy_b","path":"sprites/spr_dummy_b/spr_dummy_b.yy",},},
+    {"id":{"name":"spr_tile_basic_town","path":"sprites/spr_tile_basic_town/spr_tile_basic_town.yy",},},
+    {"id":{"name":"spr_tile_collision","path":"sprites/spr_tile_collision/spr_tile_collision.yy",},},
+    {"id":{"name":"spr_tile_weights_default","path":"sprites/spr_tile_weights_default/spr_tile_weights_default.yy",},},
+    {"id":{"name":"tl_collision","path":"tilesets/tl_collision/tl_collision.yy",},},
+    {"id":{"name":"tl_town","path":"tilesets/tl_town/tl_town.yy",},},
+    {"id":{"name":"tl_weights","path":"tilesets/tl_weights/tl_weights.yy",},},
+  ],
+  "resourceType":"GMProject",
+  "resourceVersion":"2.0",
+  "RoomOrderNodes":[
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+  ],
+  "templateType":"game",
+  "TextureGroups":[
+    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+}
