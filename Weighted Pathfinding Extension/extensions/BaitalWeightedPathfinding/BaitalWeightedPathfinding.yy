@@ -15,7 +15,11 @@
   "description":"",
   "exportToGame":true,
   "extensionVersion":"0.0.1",
-  "files":[],
+  "files":[
+    {"$GMExtensionFile":"v1","%Name":"","constants":[],"copyToTargets":-1,"filename":"BaitalWeightedPathfinding.dll","final":"","functions":[
+        {"$GMExtensionFunction":"","%Name":"get_array_value","argCount":0,"args":[2,],"documentation":"","externalName":"","help":"","hidden":false,"kind":1,"name":"get_array_value","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":1,},
+      ],"init":"","kind":1,"name":"","origname":"","ProxyFiles":[],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
+  ],
   "gradleinject":null,
   "hasConvertedCodeInjection":true,
   "helpfile":"",
