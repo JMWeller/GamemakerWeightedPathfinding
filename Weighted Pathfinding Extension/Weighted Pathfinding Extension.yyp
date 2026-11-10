@@ -23,7 +23,7 @@
   },
   "name":"Weighted Pathfinding Extension",
   "resources":[
-    {"id":{"name":"BaitalWeightedPathfinding","path":"extensions/BaitalWeightedPathfinding/BaitalWeightedPathfinding.yy",},},
+    {"id":{"name":"Pathfinding","path":"extensions/Pathfinding/Pathfinding.yy",},},
     {"id":{"name":"obj_dll_test","path":"objects/obj_dll_test/obj_dll_test.yy",},},
     {"id":{"name":"obj_dummy_a","path":"objects/obj_dummy_a/obj_dummy_a.yy",},},
     {"id":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},},
