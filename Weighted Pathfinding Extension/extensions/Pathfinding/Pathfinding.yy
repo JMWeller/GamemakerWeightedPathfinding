@@ -18,6 +18,7 @@
   "files":[
     {"$GMExtensionFile":"v1","%Name":"","constants":[],"copyToTargets":-1,"filename":"BaitalWeightedPathfinding.dll","final":"","functions":[
         {"$GMExtensionFunction":"","%Name":"DLLWeightValue","argCount":0,"args":[1,2,],"documentation":"","externalName":"","help":"DLLWeightValue(const int* buffer, double length, double index)","hidden":false,"kind":1,"name":"DLLWeightValue","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":2,},
+        {"$GMExtensionFunction":"","%Name":"DLLTestWriteToBuffer","argCount":0,"args":[1,],"documentation":"","externalName":"","help":"","hidden":false,"kind":1,"name":"DLLTestWriteToBuffer","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":1,},
       ],"init":"","kind":1,"name":"","origname":"","ProxyFiles":[],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
   ],
   "gradleinject":null,

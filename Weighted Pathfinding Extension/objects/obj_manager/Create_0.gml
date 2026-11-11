@@ -18,7 +18,7 @@ var _vmax = room_height/global.cell_size;
 
 var _cell_amount = (_hmax) * (_vmax);
 
-
+// converting the tilemap into an array
 for (var i = 0; i < _cell_amount; i++) {
    
 	var _ctl = tilemap_get(_tl_collision, _h, _v);
@@ -44,9 +44,9 @@ for (var i = 0; i < _cell_amount; i++) {
 	
 }
 
-//show_message(weight_array);
-#macro BUFFER_FLOAT_BYTE_SIZE 2
-weights_buffer_length = array_length(weight_array)*BUFFER_FLOAT_BYTE_SIZE;
+//now we convert it into a buffer so the dll can use it effectively
+#macro BUFFER_WEIGHT_BYTE_SIZE 2
+weights_buffer_length = array_length(weight_array)*BUFFER_WEIGHT_BYTE_SIZE;
 weights_buffer = buffer_create(weights_buffer_length, buffer_fixed, 1);
 
 for (var i = 0; i < array_length(weight_array); ++i) {
@@ -54,5 +54,10 @@ for (var i = 0; i < array_length(weight_array); ++i) {
 }
 
 var index = 1;
-show_message(buffer_peek(weights_buffer, index * BUFFER_FLOAT_BYTE_SIZE, buffer_u16)) 
-show_message( DLLWeightValue(buffer_get_address(weights_buffer), index) )
+show_message(buffer_peek(weights_buffer, index * BUFFER_WEIGHT_BYTE_SIZE, buffer_u16)); 
+show_message( DLLWeightValue(buffer_get_address(weights_buffer), index) );
+
+
+var test_buffer = buffer_create(BUFFER_WEIGHT_BYTE_SIZE, buffer_fixed, 1);
+DLLTestWriteToBuffer(buffer_get_address(test_buffer));
+show_message(buffer_peek(test_buffer, 0, buffer_u16))
